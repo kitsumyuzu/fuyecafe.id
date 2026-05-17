@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import 'tailwindcss';
+
+:root {
+    --natural-black: #020617;
+    --natural-white: #E4E4E4;
+    --natural-gray: #5d606a;
+    
+    --color-primary: #338f66;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 96px;
+    min-width: 600px;
+    max-width: 1920px;
+
+    background-color: var(--natural-black);
+    
+    color: var(--natural-white);
+    font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
